@@ -11,7 +11,12 @@
           <map/>
           <node name="jdnss">
             <map>
+              <entry key="addresses" value="TLS@0.0.0.0@853"/>
+              <entry key="debug" value="true"/>
               <entry key="backlog" value="5"/>
+              <entry key="logback" value="5"/>
+              <entry key="shortPi" value="3.14"/>
+              <entry key="longPi" value="3.141592"/>
             </map>
           </node>
         </node>
