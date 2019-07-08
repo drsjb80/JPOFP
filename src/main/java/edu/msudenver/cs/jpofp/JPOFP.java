@@ -1,4 +1,4 @@
-package edu.msudenver.cs;
+package edu.msudenver.cs.jpofp;
 
 import java.lang.reflect.Field;
 import java.util.prefs.BackingStoreException;

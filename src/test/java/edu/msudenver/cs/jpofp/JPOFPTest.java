@@ -1,4 +1,4 @@
-package edu.msudenver.cs;
+package edu.msudenver.cs.jpofp;
 
 import org.junit.Test;
 
@@ -38,7 +38,9 @@ public class JPOFPTest {
         assertEquals(0.0, jdnssArgs.shortPi, 0);
         assertEquals(0.0D, jdnssArgs.longPi, 0);
         assertFalse(jdnssArgs.debug);
+
         JPOFP.doJPOFP(jdnssArgs, prefs);
+
         assertEquals("TLS@0.0.0.0@853", jdnssArgs.addresses);
         assertEquals(5, jdnssArgs.backlog);
         assertEquals(5, jdnssArgs.logback);
